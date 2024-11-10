@@ -1,0 +1,105 @@
+:root{
+    --primary-color: #651FFF;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Header Start */
+
+header{
+    padding: 15px 0px;
+}
+
+header .container{
+    max-width: 1500px;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper>div:first-child{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-wrapper>div:first-child nav{
+    display: flex;
+    gap: 20px;
+}
+
+.header-wrapper>div:last-child{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-wrapper a{
+    color: #5C5F6E;
+}
+
+.my-btn{
+    padding: 10px 30px;
+    border-radius: 12px; 
+    font-weight: 600;
+    display: inline-block;
+}
+
+.border-btn{
+    background-color: transparent;
+    border: 2px solid black;
+    color: #333333 !important;
+    
+}
+
+.solid-btn{
+    background-color: var(--primary-color);
+    color: #ffffff !important;
+    border: 2px solid var(--primary-color);
+}
+
+.banner {
+    padding: 80px 0px;
+}
+
+.banner>div>div h1{
+    font-weight: 700;
+}
+
+.banner p{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.banner>div>div h1>span:last-child>span{
+  color: var(--primary-color);
+}
+
+.lightning-box{
+    background-color: var(--primary-color);
+    padding:50px 30px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.lightning-box img{
+    display: inline-block;
+    margin-bottom: 50px;
+}
